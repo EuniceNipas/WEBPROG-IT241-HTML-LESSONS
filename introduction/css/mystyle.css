@@ -1,0 +1,14 @@
+CSS Example
+body {
+  background-color: rgb(230, 173, 221);
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
