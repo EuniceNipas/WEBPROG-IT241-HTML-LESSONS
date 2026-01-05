@@ -42,17 +42,3 @@ console.log('%c🎨 Personal Portfolio Website', 'color: #EE3895; font-size: 20p
 console.log('%cBuilt with HTML, CSS, JavaScript & AI Assistance', 'color: #ABCDCB; font-size: 14px;');
 console.log('%cColor Palette: #000000, #FFFFFF, #F6D3DD, #EE3895, #ABCDCB', 'color: #F6D3DD; font-size: 12px;');
 
----
-
-## **📋 Complete Folder Structure**
-personal-website/
-│
-├── index.html
-├── hobbies.html
-├── education.html
-├── goals.html
-├── experience.html
-├── resources.html
-├── style.css
-├── script.js
-└── README.md (optional)
