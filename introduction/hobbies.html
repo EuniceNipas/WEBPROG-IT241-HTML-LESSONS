@@ -1,26 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Hobbies</title>
-  <link rel="stylesheet" href="css/mystyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies - Personal Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="nav-link no-hover" data-page="index">About Me</a></li>
+                <li><a href="hobbies.html" class="nav-link active" data-page="hobbies">Hobbies</a></li>
+                <li><a href="education.html" class="nav-link" data-page="education">Education & Achievements</a></li>
+                <li><a href="goals.html" class="nav-link" data-page="goals">Goals & Dreams</a></li>
+                <li><a href="it-experience.html" class="nav-link" data-page="it-experience">IT Experience</a></li>
+                <li><a href="resources.html" class="nav-link" data-page="resources">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<nav>
-  <a href="../home/index.html" class="nav-btn">About Me</a>
-  <a href="hobbies.html" class="nav-btn">Hobbies</a>
-  <a href="education.html" class="nav-btn">Education</a>
-  <a href="goals.html" class="nav-btn">Goals & Dreams</a>
-  <a href="it.html" class="nav-btn">IT Experience</a>
-</nav>
+    <main>
+        <section class="content-section">
+            <div class="container">
+                <h1>My Hobbies</h1>
+                <p class="section-intro">Things I love to do in my free time</p>
 
-<div class="scroll-gallery">
-  <img src="images/1.jpg">
-  <img src="images/2.jpg">
-  <img src="images/3.jpg">
-  <img src="images/4.jpg">
-</div>
+                <div class="gallery-container">
+                    <div class="gallery">
+                        <div class="gallery-item">
+                            <img src="https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Reading books">
+                            <p>Reading</p>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.pexels.com/photos/196655/pexels-photo-196655.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Photography">
+                            <p>Photography</p>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Traveling">
+                            <p>Traveling</p>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.pexels.com/photos/1153369/pexels-photo-1153369.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Cooking">
+                            <p>Cooking</p>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Coding">
+                            <p>Coding</p>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.pexels.com/photos/1111318/pexels-photo-1111318.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Music">
+                            <p>Music</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-<script src="script.js"></script>
+    <footer>
+        <p>&copy; 2024 Personal Profile. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
